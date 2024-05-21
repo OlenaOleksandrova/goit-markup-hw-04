@@ -108,6 +108,9 @@ a {text-decoration: none;}
 .info:focus {
     color: #404bbf;
 }
+.nav-list .list {
+    transition-property: color;
+}
 
 /* title-section 1*/
 
@@ -115,7 +118,8 @@ a {text-decoration: none;}
     padding-top: 188px;
     padding-bottom: 188px;
     max-height: 600px;
-   background-image: url(/images/background-min.jpg);
+    background-image: url(./styles.css);
+   
  }
 .title {
     font-weight: 700;
@@ -276,8 +280,7 @@ ul {
 .our-team-card-details {
     padding: 32px 0;
     text-align: center;
-  
-  
+
 }
 .name-team-personal {
     font-weight: 500;
@@ -300,6 +303,67 @@ ul {
     text-align: center;
     margin-top: 0;
     }
+.our-team-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.link-icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color;
+}
+
+.team-icon {
+    fill: #FFFFFF;
+}
+
+.team-icon-wrap {}
+
+
+/* картинки */
+
+.icon-section-second {
+    width: 100%;
+    height: 100%;
+    }
+
+.team-icon-container {
+    fill:#2e2f42;
+   
+}
+
+.team-icon-wrap {}
+
+.container-icon {
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color;
+    margin-bottom: 8px;
+}
+
+
      /* Our portfolio section 4  */
 
 .our-portfolio{
@@ -349,14 +413,65 @@ ul {
 
 
 
-.logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
 }
-     
+
+/* footer 2 */
+.footer-container {
+ }
+  
+
+.footer-text-two {
+    font-family: "Roboto", sans-serif;
+       font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+
+}
+/* ul */
+.footer-icon {display: flex;
+gap: 16px;
+list-style: none;
+
+}
+/* li */
+.footer-list {
+    width: 40px;
+    height: 40px;
+}
+/* a */
+.footer-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+
+}
+
+.icon-footer
+fill { color: #fff;}
+
+
 h1,h2,h3 {
     margin: 0;
 }
 p {
     margin: 0;
 }
+
