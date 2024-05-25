@@ -93,6 +93,7 @@ a {text-decoration: none;}
     letter-spacing: 0.02em;
     padding: 24px 0;
     display:block;
+    transition-property: #4D5AE5;
 }
 .link:hover { color: #404bbf;}
 .link:focus { color: #404bbf;}
@@ -118,7 +119,11 @@ a {text-decoration: none;}
     padding-top: 188px;
     padding-bottom: 188px;
     max-height: 600px;
-    background-image: url(./styles.css);
+    background-image: 
+linear-gradient(to right, rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url(../images/background.jpg);
+    
    
  }
 .title {
@@ -193,6 +198,8 @@ letter-spacing: 0.04em
     gap: 24px;
 }
 /* li */
+
+
 
 
 .list-main {
@@ -309,6 +316,7 @@ ul {
     justify-content: center;
     gap: 24px;
     list-style: none;
+    margin-top: 8px;
 }
 
 .link-icon {
@@ -393,9 +401,11 @@ display: flex;
     background: #2e2f42;
      padding-top: 100px;
      padding-bottom: 100px;
-   
+  
 }
-    
+   .footer-container-first {
+ }
+
 .footer-text {
     color: #f4f4fd;
     line-height: 1.5;
@@ -427,7 +437,9 @@ display: flex;
 
 /* footer 2 */
 .footer-container {
- }
+    width: 280px;
+    height: 80px;
+   }
   
 
 .footer-text-two {
@@ -439,6 +451,11 @@ display: flex;
         color: #fff;
         margin-bottom: 16px;
 
+}
+.footer-ferst-second-section {
+    display: flex;
+    gap: 120px;
+    
 }
 /* ul */
 .footer-icon {display: flex;
@@ -465,7 +482,7 @@ list-style: none;
 }
 
 .icon-footer
-fill { color: #fff;}
+{fill: #fff;}
 
 
 h1,h2,h3 {
