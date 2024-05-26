@@ -32,7 +32,9 @@ a {text-decoration: none;}
     /* logo */
     
 .header {
-    border-bottom: 1px solid #e7e9fc;}
+    border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .container {
     width: 1158px;
@@ -65,6 +67,7 @@ a {text-decoration: none;}
     font-family: "Raleway", sans-serif;
     margin-right: 76px;
 
+
 }
 .address {
     font-style: normal;
@@ -95,6 +98,7 @@ a {text-decoration: none;}
     padding: 24px 0;
     display:block;
     transition-property: #4D5AE5;
+    position: relative;
 }
 .link:hover { color: #404bbf;}
 .link:focus { color: #404bbf;}
@@ -120,10 +124,7 @@ a {text-decoration: none;}
     padding-top: 188px;
     padding-bottom: 188px;
     max-height: 600px;
-    background-image: 
-linear-gradient(to right, rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-    url(../images/background.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +332,7 @@ ul {
 .link-icon {
     width: 40px;
     height: 40px;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
@@ -345,9 +346,11 @@ ul {
     justify-content: center;
     transition: background-color;
 }
+.icon:hover{background-color: #404bbf;}
+.icon:focus{background-color: #404bbf;}
 
 .team-icon {
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 
 /* картинки */
@@ -395,6 +398,7 @@ display: flex;
     box-sizing: border-box;
     width: calc(100% - 48px) / 3;
 }
+.our-portfolio-list:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 .card-name-info-our-team {
     padding: 32px 16px;
