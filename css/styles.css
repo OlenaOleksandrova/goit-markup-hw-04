@@ -479,7 +479,7 @@ list-style: none;
 .footer-list {
     width: 40px;
     height: 40px;
-    ransition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* a */
 .footer-list-icon {
