@@ -428,7 +428,7 @@ margin-bottom: 8px;
 .our-portfolio-list:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 transform: translateY(0%);
 }
-/* yjdjt */
+
 .container-card-image {
 position: relative;
 overflow: hidden;
@@ -453,8 +453,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0%);
 }
 
-
-/* yjdjt */
 .card-name-info-our-team {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -501,6 +499,13 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* footer 2 */
+
+.footer {display: flex;
+    lign-items: baseline;
+    
+
+}
+
 .footer-container {
     width: 280px;
     height: 80px;
