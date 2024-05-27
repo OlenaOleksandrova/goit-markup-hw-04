@@ -66,8 +66,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     margin-right: 76px;
-
-
 }
 .address {
     font-style: normal;
@@ -86,13 +84,11 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
     }
-   .studio-line {
+.studio-line {
     color: #404bbf; }
 
-    
-  
 .link {
     color: #2E2F42;
     font-size: 16px;
@@ -112,8 +108,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-size: 16px;
     line-height: 1.5;
      letter-spacing: 0.02em;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .info:hover { color: #404BBF;
 }
@@ -133,6 +127,7 @@ padding: 24px 0;
 display:block;
 transition-property: #4D5AE5;
 position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .link-studio::after {
@@ -159,7 +154,6 @@ border-radius: 2px;
     background-position: center;
     background-size: cover;
     
-   
  }
 .title {
     font-weight: 700;
@@ -270,9 +264,12 @@ letter-spacing: 0.04em
     letter-spacing: 0.02em;
     list-style-type: none;
     padding-left: 0;
-    text-align: left;
+    text-align: left; }
 
+.text-section-second:hover {
+transform: translateY(0%);
 }
+
 /* h2 */
 .name-our-team {
     font-weight: 700;
@@ -319,7 +316,7 @@ ul {
     border-bottom: 1px solid #e7e9fc;
     max-width: 100%;
      }
-     .card-image:hover {
+.card-image:hover {
         
      }
 
@@ -361,7 +358,8 @@ ul {
 .link-icon {
     width: 40px;
     height: 40px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+}
 
 .icon {
     width: 100%;
@@ -373,6 +371,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     align-items: center;
     justify-content: center;
     transition: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon:hover{background-color: #404bbf;}
 .icon:focus{background-color: #404bbf;}
@@ -402,10 +401,10 @@ width: 264px;
 height: 112px;
 background: #f4f4fd;
 display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color;
-    margin-bottom: 8px;
+align-items: center;
+justify-content: center;
+transition: background-color;
+margin-bottom: 8px;
 }
 
 
@@ -425,9 +424,31 @@ display: flex;
 .our-portfolio-list {
     box-sizing: border-box;
     width: calc(100% - 48px) / 3;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-list:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+/* yjdjt */
+.container-card-image {
+position: relative;
+overflow: hidden;
+}
 
+.text-card-images {
+position: absolute;
+top: 0;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+padding: 40px 32px;
+background-color: #4d5ae5;
+height: 100%;
+width: 100%;
+transform: translateY(100%);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* yjdjt */
 .card-name-info-our-team {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
